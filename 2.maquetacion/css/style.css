@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Encabezado {
+    background-color: aqua;
+    height: 5em;
+}
+
+.contenedoraPrincipal {
+    display: flex;
+
+}
+
+.sectionnav {
+    background-color: red;
+    height: 31em;
+    width: 20%;
+}
+
+.seccionPrincipal {
+    background-color: rgb(30, 71, 108);
+    height: 30em;
+    width: 80%;
+    flex-direction: column;
+}
+
+.articulo {
+    background-color: rgb(64, 61, 61);
+    border-top: 4px solid white;
+    height: 10rem;
+    width: 100%;
+}
+
+.pie-Pagina {
+    background-color: rgb(30, 108, 35);
+    height: 5em;
+}
